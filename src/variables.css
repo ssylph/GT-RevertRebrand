@@ -1,4 +1,33 @@
-:root {
+:root, body {
+  --green-360: #43b581 !important;
+  --brand-500: #7289da !important;
+  --text-positive: #43b581 !important;
+  --yellow-300: #faa61a !important;
+  --red-400: #f04747 !important;
+  --status-danger: #f04747 !important;
+  --button-danger-background: #f04747 !important;
+  --button-positive-background: #43b581 !important;
+  
+  .maskBackground-3UP7z9 {background-color: #43b581 !important;}
+  .wrapper-2olG5t.badge-1ImhlC, .iconBadge-3Mmg92 {background-color: #f04747 !important;}
+  .description-22_U3B, .separator-1So4YB {display: none;}
+  .container-1QtPKm.checked-16gMAN {background-color: #43b581 !important;}
+  .container-1QtPKm.checked-16gMAN .slider-HJFN2i path {fill: #43b581 !important;}
+  .link-39sEB3[href="/store"] {display: none;}
+  .side-2ur1Qk[aria-label="User Settings"]>:nth-child(-n+15):not(:nth-child(-n+8)) {display: none;}
+  .item-1OdjEX.labelContainer-2vJzYL.colorDanger-3n-KnP.focused-3qFvc8 {background-color: #f04747; color: white;}
+  .item-1OdjEX.labelContainer-2vJzYL.colorDanger-3n-KnP {color: #f04747;}
+  .actionButton-D1ZvXj {background-color: #43b581 !important;}
+  .tabBar-ra-EuL .addFriend-emTWY1 {background-color: #43b581 !important;}
+  .tabBar-ra-EuL .addFriend-emTWY1[aria-selected=true] {color: #43b581 !important; background-color: transparent !important;}
+  .item-3mHhwr.item-3XjbnG {border-radius: 50px;}
+  .menu-1QACrS {border-radius: 20px;}
+  .colorDefault-CDqZdO {border-radius: 15px;}
+  .button-ejjZWC {border-radius: 20px;}
+  .connectedAccountContainer-2TWiXT {border-radius: 100px; border-width: 2px; border-color: ;}
+  .px-MnE_OR.botTag-7aX5WZ, .botTag-7aX5WZ.rem-3kT9wc {border-radius: 200px;}
+  .assetsLargeImageSpotify-17ME3M{border-radius:3px;}
+  
   /* Revert new green to old color */
   --old-green: #43b581;
   --info-positive-foreground: var(--old-green);
