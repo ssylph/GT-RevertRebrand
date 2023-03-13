@@ -1,13 +1,4 @@
-:root, body {
-  --green-360: #43b581 !important;
-  --brand-500: #7289da !important;
-  --text-positive: #43b581 !important;
-  --yellow-300: #faa61a !important;
-  --red-400: #f04747 !important;
-  --status-danger: #f04747 !important;
-  --button-danger-background: #f04747 !important;
-  --button-positive-background: #43b581 !important;
-  
+body {
   /* Revert new green to old color */
   --old-green: #43b581;
   --info-positive-foreground: var(--old-green);
@@ -19,6 +10,9 @@
   --text-danger: var(--old-red);
   --info-danger-foreground: var(--old-red);
   --status-danger-background: var(--old-red);
+  
+  /* Revert new yellow to old color  */
+  --old-yellow: #faa61a;
 
   /* Revert to old font var */
   --font-display: var(--font-primary);
